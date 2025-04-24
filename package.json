@@ -1,0 +1,32 @@
+{
+  "name": "peinados-afro-andre-backend",
+  "version": "1.0.0",
+  "description": "Backend API para peinados afro andre",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file .env --watch ./src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "cors",
+    "bcrypt",
+    "multer"
+  ],
+  "author": "Mady Steven Moreno Mosquera <madysteven@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "validator": "^13.15.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
