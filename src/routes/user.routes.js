@@ -13,7 +13,7 @@ router.get( '/', getUsers );
 // http://localhost:<port>/api/users/
 router.post( 
     '/', 
-    validateUserExistsByUserName, 
+    //validateUserExistsByUserName, 
     createUser 
 );
 
