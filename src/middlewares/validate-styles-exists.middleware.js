@@ -1,4 +1,4 @@
-const { dbGetStyleById } = require("../services/Style.service");
+const { dbGetStyleById } = require("../services/style.service");
 
 
 const validateStyleExists = async (req, res, next) => {
