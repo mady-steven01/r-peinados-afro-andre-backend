@@ -1,5 +1,5 @@
 const verifyProperties = require("../helpers/verify-properies.helper");
-const { dbInsertStyle, dbGetStyles, dbGetStyleById, dbDeleteStyleById, dbUpdateStyleById } = require("../services/Style.service");
+const { dbInsertStyle, dbGetStyles, dbGetStyleById, dbDeleteStyleById, dbUpdateStyleById } = require("../services/style.service");
 
 async function createStyle( req, res ) {
     const inputData = req.body;
